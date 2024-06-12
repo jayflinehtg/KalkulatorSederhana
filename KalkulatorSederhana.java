@@ -35,7 +35,7 @@ public class KalkulatorSederhana {
                              System.out.println("Pembagian dengan angka 0 tidak diperbolehkan");
                          }
                      }
-                     default -> System.out.println("Kode operator tidak dikenal");
+                     default -> System.out.println("Kode operator tidak dikenal. Masukkan angka antara 1 sampai 4");
                  }
                  try {
                      Thread.sleep(1500); // Program akan menunggu selama 1500 milisecond
